@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gjeografi - Kuiz Interaktiv</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <div class="container">
+        <header>
+            <h1>🌍 Gjeografi</h1>
+            <p class="subtitle">Mëso dhe Testo Njohuritë e Tua</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="explanations">📚 Shpjegime</button>
+            <button class="tab-btn" data-tab="quiz">🎯 Kuiz</button>
+        </nav>
+
+        <!-- Explanations Tab -->
+        <div id="explanations" class="tab-content active">
+            <div class="topic-selector">
+                <button class="topic-btn active" data-topic="topic1">☀️ Rrezatimi Diellor</button>
+                <button class="topic-btn" data-topic="topic2">🌡️ Shtypja e Ajrit</button>
+                <button class="topic-btn" data-topic="topic3">💨 Erërat</button>
+            </div>
+
+            <!-- Topic 1: Solar Radiation and Air Temperature -->
+            <div id="topic1" class="topic-content active">
+                <h2>☀️ Rrezatimi Diellor dhe Temperatura e Ajrit</h2>
+
+                <div class="explanation-card">
+                    <h3>Çfarë është Rrezatimi Diellor?</h3>
+                    <p>Rrezatimi diellor është energjia që vjen nga Dielli në formë valësh elektromagnetike. Kjo energji është burimi kryesor i ngrohtësisë për Tokën dhe atmosferën e saj.</p>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Si Ngrohet Toka?</h3>
+                    <p>Rrezet e Diellit kalojnë nëpër atmosferë dhe ngrohin sipërfaqen e Tokës. Toka pastaj lëshon nxehtësi që ngroh ajrin nga poshtë lart. Prandaj, temperaturat janë më të larta në vende me lartësi të ulët.</p>
+                    <ul>
+                        <li><strong>Rrezatimi i drejtpërdrejtë:</strong> Rrezet që bien drejtpërdrejt në sipërfaqe</li>
+                        <li><strong>Rrezatimi i shpërndarë:</strong> Rrezet që shpërndahen nga retë dhe atmosfera</li>
+                    </ul>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Faktorët që Ndikojnë Temperaturën</h3>
+                    <ul>
+                        <li><strong>Gjerësia gjeografike:</strong> Zonat tropikale janë më të ngrohta se polet</li>
+                        <li><strong>Lartësia mbidetare:</strong> Temperatura bie ~6.5°C për çdo 1000m lartësi</li>
+                        <li><strong>Largësia nga deti:</strong> Deti moderonë temperaturat (verë më e freskët, dimër më i butë)</li>
+                        <li><strong>Rrymat detare:</strong> Rrymat e ngrohta dhe të ftohta ndikojnë klimën</li>
+                    </ul>
+                </div>
+
+                <div class="explanation-card highlight">
+                    <h3>🔑 Koncepte Kyçe</h3>
+                    <ul>
+                        <li>Temperatura mesatare globale është rreth 15°C</li>
+                        <li>Efekti serë mban Tokën të ngrohtë</li>
+                        <li>Pa atmosferë, Toka do të ishte -18°C</li>
+                        <li>Albedo = aftësia e sipërfaqes për të reflektuar rrezet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Topic 2: Air Pressure -->
+            <div id="topic2" class="topic-content">
+                <h2>🌡️ Shtypja e Ajrit</h2>
+
+                <div class="explanation-card">
+                    <h3>Çfarë është Shtypja Atmosferike?</h3>
+                    <p>Shtypja atmosferike është forca që ushtron ajri mbi sipërfaqen e Tokës për shkak të peshës së tij. Matet me barometër dhe shprehet në milibar (mb) ose hektopaskal (hPa).</p>
+                    <p><strong>Shtypja normale në nivelin e detit:</strong> 1013.25 mb (ose hPa)</p>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Si Ndryshon Shtypja?</h3>
+                    <ul>
+                        <li><strong>Me lartësinë:</strong> Shtypja bie me rritjen e lartësisë (më pak ajër sipër)</li>
+                        <li><strong>Me temperaturën:</strong> Ajri i ngrohtë zgjerohet, ngrihet dhe ul shtypjen</li>
+                        <li><strong>Me lagështinë:</strong> Ajri i lagësht është më i lehtë se ajri i thatë</li>
+                    </ul>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Zonat e Shtypjes së Lartë dhe të Ulët</h3>
+                    <div class="two-columns">
+                        <div>
+                            <h4>Shtypja e Lartë (Anticikloni)</h4>
+                            <ul>
+                                <li>Ajri zbret dhe ngrohet</li>
+                                <li>Mot i qetë dhe i kthjellët</li>
+                                <li>Pak re dhe reshje</li>
+                                <li>Era rrotullohet në drejtim të akrepave të orës (HV)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Shtypja e Ulët (Cikloni)</h4>
+                            <ul>
+                                <li>Ajri ngrihet dhe ftohet</li>
+                                <li>Formohen re</li>
+                                <li>Reshje dhe mot i paqëndrueshëm</li>
+                                <li>Era rrotullohet kundër akrepave (HV)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explanation-card highlight">
+                    <h3>🔑 Koncepte Kyçe</h3>
+                    <ul>
+                        <li>Barometri mat shtypjen atmosferike</li>
+                        <li>Izobaret janë vijat që lidhin pikat me shtypje të njëjtë</li>
+                        <li>Gradienti barik = ndryshimi i shtypjes në distancë</li>
+                        <li>Shtypja bie ~12 mb për çdo 100m lartësi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Topic 3: Winds -->
+            <div id="topic3" class="topic-content">
+                <h2>💨 Erërat</h2>
+
+                <div class="explanation-card">
+                    <h3>Çfarë janë Erërat?</h3>
+                    <p>Erërat janë lëvizje horizontale të ajrit nga zonat me shtypje të lartë drejt zonave me shtypje të ulët. Shkaktohen nga ngrohja e pabarabartë e sipërfaqes së Tokës.</p>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Llojet e Erërave</h3>
+                    <h4>1. Erërat e Përgjithshme (Planetare)</h4>
+                    <ul>
+                        <li><strong>Alizet:</strong> Fryjnë nga 30° drejt ekuatorit (NL-JL në HV, JL-VL në HJ)</li>
+                        <li><strong>Erërat Perëndimore:</strong> Fryjnë nga 30° drejt 60° gjerësi</li>
+                        <li><strong>Erërat Polare:</strong> Fryjnë nga polet drejt 60° gjerësi</li>
+                    </ul>
+
+                    <h4>2. Erërat Lokale</h4>
+                    <ul>
+                        <li><strong>Flladi (briza):</strong> Era ditë-natë pranë brigjeve</li>
+                        <li><strong>Era e malit dhe luginës:</strong> Ndryshon drejtimin ditë-natë</li>
+                        <li><strong>Föhn:</strong> Erë e ngrohtë dhe e thatë që zbret nga malet</li>
+                    </ul>
+                </div>
+
+                <div class="explanation-calls">
+                    <h3>Efekti Coriolis</h3>
+                    <p>Për shkak të rrotullimit të Tokës, erërat devijojnë:</p>
+                    <ul>
+                        <li><strong>Hemisfera Veriore:</strong> Devijim në të djathtë</li>
+                        <li><strong>Hemisfera Jugore:</strong> Devijim në të majtë</li>
+                    </ul>
+                    <p>Ky efekt është më i fortë në pole dhe zero në ekuator.</p>
+                </div>
+
+                <div class="explanation-card">
+                    <h3>Matja e Erës</h3>
+                    <ul>
+                        <li><strong>Anemometri:</strong> Mat shpejtësinë e erës</li>
+                        <li><strong>Anemoskopi (Labela e erës):</strong> Tregon drejtimin</li>
+                        <li><strong>Shkalla Beaufort:</strong> Klasifikon erën nga 0-12 ballë</li>
+                    </ul>
+                </div>
+
+                <div class="explanation-card highlight">
+                    <h3>🔑 Koncepte Kyçe</h3>
+                    <ul>
+                        <li>Era emërtohet sipas drejtimit nga vjen</li>
+                        <li>Gradienti barik i madh = erë e fortë</li>
+                        <li>Izobaret e dendura = erë e fortë</li>
+                        <li>ITCZ = Zona e Konvergjencës Ndërtropikale</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Tab -->
+        <div id="quiz" class="tab-content">
+            <div class="quiz-container">
+                <div id="quiz-start" class="quiz-section active">
+                    <h2>🎯 Testo Njohuritë e Tua!</h2>
+                    <p>Zgjidh temën që dëshiron të testohesh:</p>
+
+                    <div class="quiz-topic-cards">
+                        <div class="quiz-topic-card" data-quiz="topic1">
+                            <span class="icon">☀️</span>
+                            <h3>Rrezatimi Diellor</h3>
+                            <p>10 pyetje</p>
+                        </div>
+                        <div class="quiz-topic-card" data-quiz="topic2">
+                            <span class="icon">🌡️</span>
+                            <h3>Shtypja e Ajrit</h3>
+                            <p>10 pyetje</p>
+                        </div>
+                        <div class="quiz-topic-card" data-quiz="topic3">
+                            <span class="icon">💨</span>
+                            <h3>Erërat</h3>
+                            <p>10 pyetje</p>
+                        </div>
+                        <div class="quiz-topic-card all-topics" data-quiz="all">
+                            <span class="icon">🌍</span>
+                            <h3>Të Gjitha Temat</h3>
+                            <p>30 pyetje</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quiz-questions" class="quiz-section">
+                    <div class="quiz-header">
+                        <div class="quiz-progress">
+                            <span id="current-question">1</span> / <span id="total-questions">10</span>
+                        </div>
+                        <div class="quiz-score">
+                            Pikët: <span id="score">0</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+
+                    <div id="question-container">
+                        <h3 id="question-text"></h3>
+                        <div id="answers-container" class="answers"></div>
+                    </div>
+
+                    <div id="feedback" class="feedback"></div>
+
+                    <button id="next-btn" class="next-btn" style="display: none;">Pyetja Tjetër →</button>
+                </div>
+
+                <div id="quiz-results" class="quiz-section">
+                    <div class="results-container">
+                        <div id="results-icon" class="results-icon">🏆</div>
+                        <h2>Kuizi Përfundoi!</h2>
+                        <div class="results-score">
+                            <span id="final-score">0</span> / <span id="final-total">10</span>
+                        </div>
+                        <p id="results-message"></p>
+                        <div class="results-percentage">
+                            <div class="percentage-bar">
+                                <div id="percentage-fill" class="percentage-fill"></div>
+                            </div>
+                            <span id="percentage-text">0%</span>
+                        </div>
+                        <div class="results-buttons">
+                            <button id="retry-btn" class="retry-btn">🔄 Provo Përsëri</button>
+                            <button id="back-btn" class="back-btn">📚 Kthehu te Temat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
