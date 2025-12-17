@@ -87,6 +87,23 @@ const quizData = {
                 ],
                 correct: 2,
                 explanation: "Në lartësi të mëdha, ajri është më i rrallë dhe mban më pak nxehtësi, prandaj temperaturat janë më të ulëta."
+            },
+            {
+                question: "Sa herë në ditë matet temperatura e ajrit?",
+                answers: ["2 herë", "3 herë", "4 herë", "1 herë"],
+                correct: 1,
+                explanation: "Temperatura matet 3 herë në ditë: në orën 7, orën 14 dhe orën 21."
+            },
+            {
+                question: "Cila është formula për llogaritjen e temperaturës mesatare ditore?",
+                answers: [
+                    "T7 + T14 + T21",
+                    "(T7 + T14 + T21) ÷ 3",
+                    "(T7 + T14 + 2×T21) ÷ 4",
+                    "T7 × T14 × T21"
+                ],
+                correct: 2,
+                explanation: "Formula për temperaturën mesatare ditore është: (T7 + T14 + 2×T21) ÷ 4. Matja e orës 21 përdoret dy herë."
             }
         ]
     },
@@ -292,6 +309,61 @@ const quizData = {
                 ],
                 correct: 1,
                 explanation: "ITCZ (Intertropical Convergence Zone) është Zona e Konvergjencës Ndërtropikale ku takohen alizet."
+            },
+            {
+                question: "Cilat janë erërat e përhershme në zonën tropikale?",
+                answers: [
+                    "Monsunet",
+                    "Pasatet (Alizet)",
+                    "Erërat polare",
+                    "Föhn-i"
+                ],
+                correct: 1,
+                explanation: "Pasatet (alizet) janë erërat e përhershme që fryjnë në zonën tropikale, nga 30° gjerësi drejt ekuatorit."
+            },
+            {
+                question: "Ku fryjnë erërat perëndimore?",
+                answers: [
+                    "Në zonën tropikale",
+                    "Në gjerësitë e mesme (L-P)",
+                    "Në pole",
+                    "Vetëm në ekuator"
+                ],
+                correct: 1,
+                explanation: "Erërat perëndimore fryjnë në gjerësitë e mesme, nga Lindja në Perëndim (L-P)."
+            },
+            {
+                question: "Cilat janë erërat sezonale?",
+                answers: [
+                    "Pasatet",
+                    "Erërat polare",
+                    "Monsunet",
+                    "Erërat perëndimore"
+                ],
+                correct: 2,
+                explanation: "Monsunet janë erëra sezonale që ndryshojnë drejtimin sipas stinës (verë dhe dimër)."
+            },
+            {
+                question: "Çfarë karakterizon monsunet verore?",
+                answers: [
+                    "Janë pa reshje, fryjnë nga toka kah deti",
+                    "Kanë shumë reshje, fryjnë nga deti kah toka",
+                    "Janë erëra të ftohta",
+                    "Fryjnë vetëm natën"
+                ],
+                correct: 1,
+                explanation: "Monsunet verore kanë shumë reshje sepse erërat fryjnë prej detit kah toka, duke sjellë lagështi."
+            },
+            {
+                question: "Çfarë karakterizon monsunet dimërore?",
+                answers: [
+                    "Kanë shumë reshje",
+                    "Fryjnë nga deti kah toka",
+                    "Janë pa reshje, fryjnë nga toka kah deti",
+                    "Sjellin borë"
+                ],
+                correct: 2,
+                explanation: "Monsunet dimërore janë pa reshje (të thata) sepse erërat fryjnë prej tokës kah deti, duke sjellë ajër të thatë."
             }
         ]
     }
